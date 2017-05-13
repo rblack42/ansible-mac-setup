@@ -1,0 +1,8 @@
+---
+- name: install python
+  homebrew:
+    name={{ item }}
+    state=latest
+  with_items:
+    - python
+    - python3

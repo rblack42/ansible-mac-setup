@@ -1,0 +1,8 @@
+---
+- name: Macbook development provisioning
+  hosts: local-mac
+  connection: local
+
+  roles:
+    - docker
+    - python
